@@ -1,28 +1,116 @@
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Daily Grit Survival Supply</title>
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-        <style>
-            body { background-color: #111; color: #f5f5f5; font-family: monospace; text-align: center; margin: 0; padding: 0; }
-            .logo { margin-top: 30px; width: 200px; }
-            h1 { font-size: 2rem; margin: 20px 0; }
-            .btns { margin: 30px 0; }
-            .btns a { display: inline-block; padding: 15px 30px; margin: 10px; font-weight: bold; color: #fff; background: #c44; text-decoration: none; border-radius: 5px; }
-            .quote { font-style: italic; color: #aaa; margin-top: 30px; font-size: 1.1rem; }
-        </style>
-    </head>
-    <body>
-        <img src="images/logo2.png" alt="Daily Grit Logo" class="logo" />
-        <h1>Survive the Collapse in Style.</h1>
-        <p>Gear up. Get informed. Or get left behind.</p>
-        <div class="btns">
-            <a href="shop.html">Enter the Survival Store</a>
-            <a href="blog/index.html">Read the Blog</a>
-        </div>
-        <div class="quote">"The only people who truly know peace… are the ones who’ve been through hell and made it out without begging."</div>
-    </body>
-    </html>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rough Grit Gear Picks</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: #111 url('assets/new-bg.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #eee;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .ad-banner {
+      background-color: rgba(255, 153, 0, 0.1);
+      color: #ff9900;
+      text-align: center;
+      padding: 0.75rem;
+      font-weight: bold;
+      border-top: 1px solid #444;
+      border-bottom: 1px solid #444;
+    }
+
+    .gear-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .gear-item {
+      background-color: #222;
+      padding: 1rem;
+      border: 1px solid #555;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .sponsored {
+      background-color: #1a1a1a;
+      border: 1px dashed #ff9900;
+      color: #ff9900;
+      font-style: italic;
+    }
+
+    .grit-test {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .grit-test button {
+      background-color: #c0392b;
+      border: none;
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #000;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Rough Grit Gear Picks</h1>
+    <p>Rough Gear for Rougher Times</p>
+  </div>
+
+  <div class="ad-banner">
+    🔥 Featured Deal: Get 20% off your first survival kit — Sponsored
+  </div>
+
+  <section class="gear-grid">
+    <div class="gear-item">🔥 Firestarter Kit</div>
+    <div class="gear-item">🧊 Mylar Blanket</div>
+    <div class="gear-item">🔋 Generator</div>
+    <div class="sponsored gear-item">🪓 Tactical Axe – Sponsored</div>
+    <div class="gear-item">🥫 MRE Meals</div>
+    <div class="gear-item">🚿 Water Filter</div>
+  </section>
+
+  <div class="grit-test">
+    <h2>Take the Grit Test</h2>
+    <button>Give It Your All</button>
+    <div style="margin-top:1rem; color:#999;">🔗 Sponsored survival guide below the results</div>
+  </div>
+
+  <footer>
+    &copy; 2025 Rough Grit. All rights reserved.
+  </footer>
+</body>
+</html>
